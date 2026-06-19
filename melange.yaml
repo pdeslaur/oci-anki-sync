@@ -18,7 +18,7 @@ environment:
         packages:
             - busybox
             - ca-certificates-bundle
-            - rust-1.86
+            - rust
             - protoc
             - build-base
 
