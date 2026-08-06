@@ -1,6 +1,6 @@
 package:
     name: anki-sync-server
-    version: "26.05"
+    version: "26.08.1"
     epoch: 0
     description: Anki sync server
     copyright:
@@ -27,7 +27,7 @@ pipeline:
       with:
           repository: https://github.com/ankitects/anki
           tag: ${{package.version}}
-          expected-commit: e64c6b1aee3e8d668fb8bbe084beada8e070d985
+          expected-commit: 39e4b0b48c5bb22e9c22ad87c64ff14e6a24dc20
           recurse-submodules: true
 
     - name: Build
